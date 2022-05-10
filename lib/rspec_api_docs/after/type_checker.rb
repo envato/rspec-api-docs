@@ -6,8 +6,8 @@ module RspecApiDocs
 
       attr_reader :type, :value
 
-      def self.call(*args)
-        new(*args).check
+      def self.call(...)
+        new(...).check
       end
 
       def initialize(type:, value:)

@@ -12,6 +12,11 @@ Gem::Specification.new do |spec|
   spec.homepage = 'https://github.com/twe4ked'
   spec.license = 'MIT'
 
+  spec.metadata = {
+    'allowed_push_host' => 'https://rubygems.pkg.github.com/envato',
+    'github_repo' => 'ssh://github.com/envato/rspec_api_docs',
+  }
+
   spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^spec/}) }
   spec.bindir = 'bin'
   spec.executables = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

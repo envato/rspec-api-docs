@@ -169,9 +169,7 @@ message | string | Error message
 ```json
 
 {
-  "data": [
-
-  ]
+  "data": []
 }
 ```
 

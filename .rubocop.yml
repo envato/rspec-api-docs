@@ -1,15 +1,19 @@
+plugins:
+  - rubocop-rake
+  - rubocop-rspec
+
 AllCops:
-  TargetRubyVersion: 2.2
+  TargetRubyVersion: 3.4
   DisplayCopNames: true
   DisabledByDefault: true
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 
 Layout/DotPosition:
   EnforcedStyle: leading
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: true
 
 Layout/ExtraSpacing:
@@ -50,10 +54,3 @@ Style/TrailingCommaInArguments:
 
 Style/ClassAndModuleChildren:
   EnforcedStyle: nested
-
-# NOTE: Cop seems to be broken at the moment:
-#
-#   An error occurred while Layout/MultilineOperationIndentation cop was
-#   inspecting ./lib/rspec_api_docs/rake_task.rb:101:6
-# Layout/MultilineOperationIndentation:
-#   EnforcedStyle: indented

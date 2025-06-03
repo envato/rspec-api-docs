@@ -5,9 +5,7 @@
   "route": "/places",
   "description": "Listing all places with a modified response bod,",
   "explanation": null,
-  "parameters": [
-
-  ],
+  "parameters": [],
   "response_fields": [
     {
       "scope": "data",
@@ -29,10 +27,10 @@
       "request_body": null,
       "request_headers": {
         "Cookie": "",
-        "Host": "example.org"
+        "Host": "example.org",
+        "Version": "HTTP/1.0"
       },
-      "request_query_parameters": {
-      },
+      "request_query_parameters": {},
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",

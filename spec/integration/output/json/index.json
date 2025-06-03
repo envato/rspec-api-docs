@@ -7,9 +7,7 @@
         "description": "Getting all the characters.\n\nFor when you need everything!\n",
         "name": "Listing all characters",
         "httpMethod": "GET",
-        "parameters": [
-
-        ],
+        "parameters": [],
         "path": "/characters",
         "requests": [
           {
@@ -18,10 +16,10 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org"
+              "Host": "example.org",
+              "Version": "HTTP/1.0"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 200,
             "responseStatusText": "OK",
@@ -46,16 +44,13 @@
             "type": "string"
           }
         ],
-        "notes": {
-        }
+        "notes": {}
       },
       {
         "description": null,
         "name": "Characters head",
         "httpMethod": "HEAD",
-        "parameters": [
-
-        ],
+        "parameters": [],
         "path": "/characters",
         "requests": [
           {
@@ -64,10 +59,10 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org"
+              "Host": "example.org",
+              "Version": "HTTP/1.0"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": "application/x-www-form-urlencoded",
             "responseStatus": 200,
             "responseStatusText": "OK",
@@ -80,9 +75,7 @@
             "responseContentType": "application/json"
           }
         ],
-        "responseFields": [
-
-        ],
+        "responseFields": [],
         "notes": {
           "info": "This example has overridden the resource name set in the `before` block."
         }
@@ -106,10 +99,10 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org"
+              "Host": "example.org",
+              "Version": "HTTP/1.0"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": "application/x-www-form-urlencoded",
             "responseStatus": 200,
             "responseStatusText": "OK",
@@ -129,8 +122,7 @@
             "type": "string"
           }
         ],
-        "notes": {
-        }
+        "notes": {}
       },
       {
         "description": "For getting information about a Character.",
@@ -151,10 +143,10 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org"
+              "Host": "example.org",
+              "Version": "HTTP/1.0"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 200,
             "responseStatusText": "OK",
@@ -188,9 +180,7 @@
         "description": "Returns an error",
         "name": "When a Character cannot be found",
         "httpMethod": "GET",
-        "parameters": [
-
-        ],
+        "parameters": [],
         "path": "/characters/:id",
         "requests": [
           {
@@ -199,10 +189,10 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org"
+              "Host": "example.org",
+              "Version": "HTTP/1.0"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 404,
             "responseStatusText": "Not Found",
@@ -251,10 +241,10 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org"
+              "Host": "example.org",
+              "Version": "HTTP/1.0"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 200,
             "responseStatusText": "OK",
@@ -272,7 +262,8 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org"
+              "Host": "example.org",
+              "Version": "HTTP/1.0"
             },
             "requestQueryParameters": {
               "page": "2"
@@ -309,9 +300,7 @@
         "description": null,
         "name": "Listing all places",
         "httpMethod": "GET",
-        "parameters": [
-
-        ],
+        "parameters": [],
         "path": "/places",
         "requests": [
           {
@@ -320,10 +309,10 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org"
+              "Host": "example.org",
+              "Version": "HTTP/1.0"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 200,
             "responseStatusText": "OK",
@@ -348,16 +337,13 @@
             "type": "string"
           }
         ],
-        "notes": {
-        }
+        "notes": {}
       },
       {
         "description": null,
         "name": "Listing all places with a modified response bod,",
         "httpMethod": "GET",
-        "parameters": [
-
-        ],
+        "parameters": [],
         "path": "/places",
         "requests": [
           {
@@ -366,10 +352,10 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org"
+              "Host": "example.org",
+              "Version": "HTTP/1.0"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 200,
             "responseStatusText": "OK",
@@ -394,8 +380,7 @@
             "type": "string"
           }
         ],
-        "notes": {
-        }
+        "notes": {}
       }
     ]
   }

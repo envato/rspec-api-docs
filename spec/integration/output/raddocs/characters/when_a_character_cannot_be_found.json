@@ -5,9 +5,7 @@
   "route": "/characters/:id",
   "description": "When a Character cannot be found",
   "explanation": "Returns an error",
-  "parameters": [
-
-  ],
+  "parameters": [],
   "response_fields": [
     {
       "scope": "errors",
@@ -23,10 +21,10 @@
       "request_body": null,
       "request_headers": {
         "Cookie": "",
-        "Host": "example.org"
+        "Host": "example.org",
+        "Version": "HTTP/1.0"
       },
-      "request_query_parameters": {
-      },
+      "request_query_parameters": {},
       "request_content_type": null,
       "response_status": 404,
       "response_status_text": "Not Found",

@@ -28,10 +28,10 @@
       "request_body": null,
       "request_headers": {
         "Cookie": "",
-        "Host": "example.org"
+        "Host": "example.org",
+        "Version": "HTTP/1.0"
       },
-      "request_query_parameters": {
-      },
+      "request_query_parameters": {},
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",

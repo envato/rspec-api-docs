@@ -36,7 +36,7 @@ module RspecApiDocs
                 key.is_a?(Symbol) && key =~ /\A[a-z]/ ? lower_camel_case(key.to_s).to_sym : key,
                 recursive_format_hash(v),
               ]
-            end
+            end,
           ]
         when Enumerable
           hash.map { |value| recursive_format_hash(value) }

@@ -5,9 +5,7 @@
   "route": "/places",
   "description": "Listing all places",
   "explanation": null,
-  "parameters": [
-
-  ],
+  "parameters": [],
   "response_fields": [
     {
       "scope": "data",
@@ -31,16 +29,15 @@
         "Cookie": "",
         "Host": "example.org"
       },
-      "request_query_parameters": {
-      },
+      "request_query_parameters": {},
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
       "response_body": "{\"data\":[{\"id\":1,\"name\":\"Candy Kingdom\"},{\"id\":2,\"name\":\"Tree Fort\"}]}",
       "response_headers": {
-        "Content-Type": "application/json",
-        "Content-Length": "70",
-        "X-Content-Type-Options": "nosniff"
+        "content-type": "application/json",
+        "content-length": "70",
+        "x-content-type-options": "nosniff"
       },
       "response_content_type": "application/json",
       "curl": null

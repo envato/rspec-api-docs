@@ -5,9 +5,7 @@
   "route": "/characters",
   "description": "Listing all characters",
   "explanation": "Getting all the characters.\n\nFor when you need everything!\n",
-  "parameters": [
-
-  ],
+  "parameters": [],
   "response_fields": [
     {
       "scope": "data",
@@ -31,16 +29,15 @@
         "Cookie": "",
         "Host": "example.org"
       },
-      "request_query_parameters": {
-      },
+      "request_query_parameters": {},
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
       "response_body": "{\"data\":[{\"id\":1,\"name\":\"Finn the Human\"},{\"id\":2,\"name\":\"Jake the Dog\"}]}",
       "response_headers": {
-        "Content-Type": "application/json",
-        "Content-Length": "74",
-        "X-Content-Type-Options": "nosniff"
+        "content-type": "application/json",
+        "content-length": "74",
+        "x-content-type-options": "nosniff"
       },
       "response_content_type": "application/json",
       "curl": null

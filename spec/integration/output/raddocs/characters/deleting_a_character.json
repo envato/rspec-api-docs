@@ -30,16 +30,15 @@
         "Cookie": "",
         "Host": "example.org"
       },
-      "request_query_parameters": {
-      },
+      "request_query_parameters": {},
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
       "response_body": "{\"message\":\"Character not found.\"}",
       "response_headers": {
-        "Content-Type": "application/json",
-        "Content-Length": "34",
-        "X-Content-Type-Options": "nosniff"
+        "content-type": "application/json",
+        "content-length": "34",
+        "x-content-type-options": "nosniff"
       },
       "response_content_type": "application/json",
       "curl": null

@@ -8,6 +8,9 @@ RSpec.describe RspecApiDocs do
   include RspecApiDocs::Dsl
 
   class TestApp < Sinatra::Base
+    # Disable host authorization for tests since we don't need this security in test environment
+    set :host_authorization, {permitted_hosts: []}
+
     CHARACTERS = {
       1 => {name: 'Finn the Human'},
       2 => {name: 'Jake the Dog'},

@@ -7,9 +7,7 @@
         "description": "Getting all the characters.\n\nFor when you need everything!\n",
         "name": "Listing all characters",
         "httpMethod": "GET",
-        "parameters": [
-
-        ],
+        "parameters": [],
         "path": "/characters",
         "requests": [
           {
@@ -20,16 +18,15 @@
               "Cookie": "",
               "Host": "example.org"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 200,
             "responseStatusText": "OK",
             "responseBody": "{\"data\":[{\"id\":1,\"name\":\"Finn the Human\"},{\"id\":2,\"name\":\"Jake the Dog\"}]}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "74",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "74",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -46,16 +43,13 @@
             "type": "string"
           }
         ],
-        "notes": {
-        }
+        "notes": {}
       },
       {
         "description": null,
         "name": "Characters head",
         "httpMethod": "HEAD",
-        "parameters": [
-
-        ],
+        "parameters": [],
         "path": "/characters",
         "requests": [
           {
@@ -66,23 +60,20 @@
               "Cookie": "",
               "Host": "example.org"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": "application/x-www-form-urlencoded",
             "responseStatus": 200,
             "responseStatusText": "OK",
             "responseBody": null,
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "74",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "74",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
         ],
-        "responseFields": [
-
-        ],
+        "responseFields": [],
         "notes": {
           "info": "This example has overridden the resource name set in the `before` block."
         }
@@ -108,16 +99,15 @@
               "Cookie": "",
               "Host": "example.org"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": "application/x-www-form-urlencoded",
             "responseStatus": 200,
             "responseStatusText": "OK",
             "responseBody": "{\"message\":\"Character not found.\"}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "34",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "34",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -129,8 +119,7 @@
             "type": "string"
           }
         ],
-        "notes": {
-        }
+        "notes": {}
       },
       {
         "description": "For getting information about a Character.",
@@ -153,16 +142,15 @@
               "Cookie": "",
               "Host": "example.org"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 200,
             "responseStatusText": "OK",
             "responseBody": "{\"character\":{\"id\":42,\"name\":\"Finn the Human\"}}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "47",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "47",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -188,9 +176,7 @@
         "description": "Returns an error",
         "name": "When a Character cannot be found",
         "httpMethod": "GET",
-        "parameters": [
-
-        ],
+        "parameters": [],
         "path": "/characters/:id",
         "requests": [
           {
@@ -201,16 +187,15 @@
               "Cookie": "",
               "Host": "example.org"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 404,
             "responseStatusText": "Not Found",
             "responseBody": "{\"errors\":{\"message\":\"Character not found.\"}}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "45",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "45",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -253,16 +238,15 @@
               "Cookie": "",
               "Host": "example.org"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 200,
             "responseStatusText": "OK",
             "responseBody": "{\"data\":[{\"id\":1,\"name\":\"Candy Kingdom\"},{\"id\":2,\"name\":\"Tree Fort\"}]}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "70",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "70",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           },
@@ -282,9 +266,9 @@
             "responseStatusText": "OK",
             "responseBody": "{\"data\":[]}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "11",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "11",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -309,9 +293,7 @@
         "description": null,
         "name": "Listing all places",
         "httpMethod": "GET",
-        "parameters": [
-
-        ],
+        "parameters": [],
         "path": "/places",
         "requests": [
           {
@@ -322,16 +304,15 @@
               "Cookie": "",
               "Host": "example.org"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 200,
             "responseStatusText": "OK",
             "responseBody": "{\"data\":[{\"id\":1,\"name\":\"Candy Kingdom\"},{\"id\":2,\"name\":\"Tree Fort\"}]}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "70",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "70",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -348,16 +329,13 @@
             "type": "string"
           }
         ],
-        "notes": {
-        }
+        "notes": {}
       },
       {
         "description": null,
         "name": "Listing all places with a modified response bod,",
         "httpMethod": "GET",
-        "parameters": [
-
-        ],
+        "parameters": [],
         "path": "/places",
         "requests": [
           {
@@ -368,16 +346,15 @@
               "Cookie": "",
               "Host": "example.org"
             },
-            "requestQueryParameters": {
-            },
+            "requestQueryParameters": {},
             "requestContentType": null,
             "responseStatus": 200,
             "responseStatusText": "OK",
             "responseBody": "{\"data\":[{\"id\":2,\"name\":\"Tree Fort\"}]}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "70",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "70",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -394,8 +371,7 @@
             "type": "string"
           }
         ],
-        "notes": {
-        }
+        "notes": {}
       }
     ]
   }

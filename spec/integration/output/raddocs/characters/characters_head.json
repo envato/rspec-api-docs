@@ -5,12 +5,8 @@
   "route": "/characters",
   "description": "Characters head",
   "explanation": null,
-  "parameters": [
-
-  ],
-  "response_fields": [
-
-  ],
+  "parameters": [],
+  "response_fields": [],
   "requests": [
     {
       "request_method": "HEAD",
@@ -20,16 +16,15 @@
         "Cookie": "",
         "Host": "example.org"
       },
-      "request_query_parameters": {
-      },
+      "request_query_parameters": {},
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 200,
       "response_status_text": "OK",
       "response_body": null,
       "response_headers": {
-        "Content-Type": "application/json",
-        "Content-Length": "74",
-        "X-Content-Type-Options": "nosniff"
+        "content-type": "application/json",
+        "content-length": "74",
+        "x-content-type-options": "nosniff"
       },
       "response_content_type": "application/json",
       "curl": null

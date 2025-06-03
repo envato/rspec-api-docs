@@ -304,16 +304,34 @@ RspecApiDocs::Rake.new :custom_task_name
 After checking out the repo, run `bin/setup` to install dependencies. Then, run
 `rake` to run the tests.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To
-release a new version, update the version number in `version.rb`, and then run
-`bundle exec rake release`, which will create a git tag for the version, push
-git commits and tags, and push the `.gem` file to [rubygems.org].
-
 Regenerate this project's integration spec docs locally:
 
+```bash
+./bin/generate_integration_docs
 ```
-$ ./bin/generate_integration_docs
-```
+
+To install this gem onto your local machine, run `bundle exec rake install`. 
+
+To release a new version, update the version number in `version.rb`, and then
+run `bundle exec rake release`, which will create a git tag for the version,
+push git commits and tags, and push the `.gem` file to [rubygems.org].
+
+## Creating a release
+
+1. Bump the version number in `lib/rspec_api_docs/version.rb`
+
+2. Authenticate with GitHub Packages using [these instructions](https://docs.envato.net/infrastructure/guides/github/gem-packages.html#pushing-gems)
+
+3. Run the release Rake task:
+
+   ```
+   BUNDLE_GEM__PUSH_KEY=github bundle exec rake release
+   ```
+
+   This will create a git tag for the version, push tags up to GitHub, and
+   package the code in a `gem` file and upload it to GitHub packages.
+
+4. Create a [new release](https://github.com/envato/rspec_api_docs/releases)
 
 ## Contributing
 

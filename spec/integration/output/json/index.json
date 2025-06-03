@@ -16,8 +16,7 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org",
-              "Version": "HTTP/1.0"
+              "Host": "example.org"
             },
             "requestQueryParameters": {},
             "requestContentType": null,
@@ -25,9 +24,9 @@
             "responseStatusText": "OK",
             "responseBody": "{\"data\":[{\"id\":1,\"name\":\"Finn the Human\"},{\"id\":2,\"name\":\"Jake the Dog\"}]}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "74",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "74",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -59,8 +58,7 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org",
-              "Version": "HTTP/1.0"
+              "Host": "example.org"
             },
             "requestQueryParameters": {},
             "requestContentType": "application/x-www-form-urlencoded",
@@ -68,9 +66,9 @@
             "responseStatusText": "OK",
             "responseBody": null,
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "74",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "74",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -99,8 +97,7 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org",
-              "Version": "HTTP/1.0"
+              "Host": "example.org"
             },
             "requestQueryParameters": {},
             "requestContentType": "application/x-www-form-urlencoded",
@@ -108,9 +105,9 @@
             "responseStatusText": "OK",
             "responseBody": "{\"message\":\"Character not found.\"}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "34",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "34",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -143,8 +140,7 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org",
-              "Version": "HTTP/1.0"
+              "Host": "example.org"
             },
             "requestQueryParameters": {},
             "requestContentType": null,
@@ -152,9 +148,9 @@
             "responseStatusText": "OK",
             "responseBody": "{\"character\":{\"id\":42,\"name\":\"Finn the Human\"}}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "47",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "47",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -189,8 +185,7 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org",
-              "Version": "HTTP/1.0"
+              "Host": "example.org"
             },
             "requestQueryParameters": {},
             "requestContentType": null,
@@ -198,9 +193,9 @@
             "responseStatusText": "Not Found",
             "responseBody": "{\"errors\":{\"message\":\"Character not found.\"}}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "45",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "45",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -241,8 +236,7 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org",
-              "Version": "HTTP/1.0"
+              "Host": "example.org"
             },
             "requestQueryParameters": {},
             "requestContentType": null,
@@ -250,9 +244,9 @@
             "responseStatusText": "OK",
             "responseBody": "{\"data\":[{\"id\":1,\"name\":\"Candy Kingdom\"},{\"id\":2,\"name\":\"Tree Fort\"}]}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "70",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "70",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           },
@@ -262,8 +256,7 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org",
-              "Version": "HTTP/1.0"
+              "Host": "example.org"
             },
             "requestQueryParameters": {
               "page": "2"
@@ -273,9 +266,9 @@
             "responseStatusText": "OK",
             "responseBody": "{\"data\":[]}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "11",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "11",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -309,8 +302,7 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org",
-              "Version": "HTTP/1.0"
+              "Host": "example.org"
             },
             "requestQueryParameters": {},
             "requestContentType": null,
@@ -318,9 +310,9 @@
             "responseStatusText": "OK",
             "responseBody": "{\"data\":[{\"id\":1,\"name\":\"Candy Kingdom\"},{\"id\":2,\"name\":\"Tree Fort\"}]}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "70",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "70",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }
@@ -352,8 +344,7 @@
             "requestBody": null,
             "requestHeaders": {
               "Cookie": "",
-              "Host": "example.org",
-              "Version": "HTTP/1.0"
+              "Host": "example.org"
             },
             "requestQueryParameters": {},
             "requestContentType": null,
@@ -361,9 +352,9 @@
             "responseStatusText": "OK",
             "responseBody": "{\"data\":[{\"id\":2,\"name\":\"Tree Fort\"}]}",
             "responseHeaders": {
-              "Content-Type": "application/json",
-              "Content-Length": "70",
-              "X-Content-Type-Options": "nosniff"
+              "content-type": "application/json",
+              "content-length": "70",
+              "x-content-type-options": "nosniff"
             },
             "responseContentType": "application/json"
           }

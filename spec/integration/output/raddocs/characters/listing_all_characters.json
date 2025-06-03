@@ -27,8 +27,7 @@
       "request_body": null,
       "request_headers": {
         "Cookie": "",
-        "Host": "example.org",
-        "Version": "HTTP/1.0"
+        "Host": "example.org"
       },
       "request_query_parameters": {},
       "request_content_type": null,
@@ -36,9 +35,9 @@
       "response_status_text": "OK",
       "response_body": "{\"data\":[{\"id\":1,\"name\":\"Finn the Human\"},{\"id\":2,\"name\":\"Jake the Dog\"}]}",
       "response_headers": {
-        "Content-Type": "application/json",
-        "Content-Length": "74",
-        "X-Content-Type-Options": "nosniff"
+        "content-type": "application/json",
+        "content-length": "74",
+        "x-content-type-options": "nosniff"
       },
       "response_content_type": "application/json",
       "curl": null
